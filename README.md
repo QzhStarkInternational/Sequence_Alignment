@@ -38,16 +38,16 @@
 
 ## Testing
     
-**Threshold in the checkSameGroup in the Query class can be changed into any
+- Threshold in the checkSameGroup in the Query class can be changed into any
     legal value. The testing result might seems different as long as the threshold
-    changing.**
+    changing.
     
-**The find match process is strictly follows the search all policy. The result 
+- The find match process is strictly follows the search all policy. The result 
     might seems different to the referential result. Loops time can be furtherly
-    optimized in the referentialPositionGraph class.**
+    optimized in the referentialPositionGraph class.
     
-**Testing process used small groups of reference data and matching data. The 
-    program seems to work in such testing.** 
+- Testing process used small groups of reference data and matching data. The 
+    program seems to work in such testing.
 
 ## Attention
 
