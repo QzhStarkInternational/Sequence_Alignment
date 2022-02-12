@@ -1,5 +1,7 @@
 # Sequence_Alignment
 
+## Warning
+**This is a sample code, includes the hint of basic sequencing index constructing method, it does not includes any data about DNA sequence**
 
 ## Description
 **This program is to find the starting position of matching DNA sequence and 
