@@ -7,15 +7,15 @@
 
 ### Steps need to implement:
 
--Implement an first and secondary hash table to store the starting
+- Implement an first and secondary hash table to store the starting
           position of each 20bp Kmer in the reference list, the data is read
           from the input file. 
 
--Read the character from the NGS file and find the match key in the 
+- Read the character from the NGS file and find the match key in the 
           table, store the starting position of reference and starting position
           of NGS to the query. 
 
--Use the priority queue to store the queries and implement the graph 
+- Use the priority queue to store the queries and implement the graph 
           which crafts the starting and ending position of the relative position 
           that mapping from the NGS to the reference. 
  
@@ -54,7 +54,7 @@
 **In the FileIO object, there exists a parameter named target with type integer, 
     which might be removed later. Several details list below:**
     
--If the target is set to 1, then it create the two chain hashtable from
+- If the target is set to 1, then it create the two chain hashtable from
           a file, which created from a input file. The input file removes all 
           invalid character ('N' and the '\n'). But this way is time consuming. 
           The optimized method might be released later. 
