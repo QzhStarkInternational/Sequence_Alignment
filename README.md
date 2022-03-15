@@ -20,10 +20,29 @@
 - Use the priority queue to store the queries and implement the graph 
           which crafts the starting and ending position of the relative position 
           that mapping from the NGS to the reference. 
+          
+## Download:
+
+- Download all files, unzip them, and place into same directory. 
+
+ ## Configure:
+ 
+ **
+ - This program support FASTA format, so you can download any reference DNA dataset and aligned dataset from national database or biomedical database. Search RAS, and you should get correspond database. 
+- Replace the variable "originFile" in the main.cpp with your referencial database.
+- Replace rest of file name with your preference: these are output files that store the referencial table. In rest two files: output stores the referencial database after randomization comtaminated or unmeasured DNA sequence; NGS_1 stores those unmatched sequence that need further aligned. 
+- Firstly, run the main.cpp, then you got those unmatched sequence that will furhter aligned use global alignment. Matching time might process about a hour. 
+- Secondly, run the NW_alorithm.cpp, then you got those aligned penalty score of those unmatched sequence. Alignment time might process a few hours. 
+**
+
+## Requirements:
+
+- It is better to run this tool on Mac, preferable a M1 chip Mac. Make sure you have at least 32GB RAM memory on a Intel based Mac, and at least 16GB RAM memory on a M1 chip based Mac. 
+- It is better to use Xcode to run this tool. 
  
 
 ## How to compile
-**Run main. There is no valid Makefile in the project. 
+**Run main.cpp There is no valid Makefile in the project. 
     The target and rules are already set up in the main function.** 
 
 
