@@ -27,13 +27,13 @@
 
  ## Configure:
  
- **
+ ***
  - This program support FASTA format, so you can download any reference DNA dataset and aligned dataset from national database or biomedical database. Search RAS, and you should get correspond database. 
 - Replace the variable "originFile" in the main.cpp with your referencial database.
 - Replace rest of file name with your preference: these are output files that store the referencial table. In rest two files: output stores the referencial database after randomization comtaminated or unmeasured DNA sequence; NGS_1 stores those unmatched sequence that need further aligned. 
 - Firstly, run the main.cpp, then you got those unmatched sequence that will furhter aligned use global alignment. Matching time might process about a hour. 
 - Secondly, run the NW_alorithm.cpp, then you got those aligned penalty score of those unmatched sequence. Alignment time might process a few hours. 
-**
+***
 
 ## Requirements:
 
