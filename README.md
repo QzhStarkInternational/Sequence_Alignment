@@ -39,12 +39,6 @@
 
 - It is better to run this tool on Mac, preferable a M1 chip Mac. Make sure you have at least 32GB RAM memory on a Intel based Mac, and at least 16GB RAM memory on a M1 chip based Mac. 
 - It is better to use Xcode to run this tool. 
- 
-
-## How to compile
-**Run main.cpp There is no valid Makefile in the project. 
-    The target and rules are already set up in the main function.** 
-
 
 ## Normal Output
 
