@@ -16,12 +16,12 @@ unsigned int COMPLETE_LENGTH = 20;
 
 int main(int argc, const char * argv[]) {
     
-    string originFile = "/Users/starkzihanqu/desktop/Programing/DNASequenceAlignment/DNASequenceAlignment/DNASequenceAlignment/hs37d5_22.fa";
-    string output = "/Users/starkzihanqu/desktop/Programing/DNASequenceAlignment/DNASequenceAlignment/DNASequenceAlignment/output.txt";
+    string originFile = "";
+    string output = "";
     FileIO *input = new FileIO(originFile, output, 1);
 
     string in(input->getOutputFile());
-    ofstream out("/Users/starkzihanqu/desktop/output.txt");
+    ofstream out("");
     FILE* inf = fopen(in.c_str(), "r");
     TwoChainTable *t = nullptr;
     if (inf != nullptr) {
@@ -35,7 +35,7 @@ int main(int argc, const char * argv[]) {
 
     // Here Below is the NGS sequence
     // Also we suppose that the NGS file is exist
-    string NGS_1("/Users/starkzihanqu/desktop/Programing/DNASequenceAlignment/DNASequenceAlignment/DNASequenceAlignment/NGS1.txt");
+    string NGS_1("");
     NGSGroup *ngs = new NGSGroup(NGS_1, t);
 
 //    /* Test code start here */
